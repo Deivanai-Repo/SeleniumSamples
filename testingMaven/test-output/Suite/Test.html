@@ -1,0 +1,259 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>36/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Apr 14 20:46:52 CDT 2020</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (339 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='YBAPP.testngxmlcanvaseImage.Image1()'><b>Image1</b><br>Test class: YBAPP.testngxmlcanvaseImage</td>
+<td></td>
+<td>0</td>
+<td>YBAPP.testngxmlcanvaseImage@185d8b6</td></tr>
+<tr>
+<td title='YBAPP.testngxmlcanvaseImage.Image2()'><b>Image2</b><br>Test class: YBAPP.testngxmlcanvaseImage</td>
+<td></td>
+<td>0</td>
+<td>YBAPP.testngxmlcanvaseImage@185d8b6</td></tr>
+<tr>
+<td title='FOWAPP.OriginalEvent.OriginalEvent1920()'><b>OriginalEvent1920</b><br>Test class: FOWAPP.OriginalEvent</td>
+<td></td>
+<td>0</td>
+<td>FOWAPP.OriginalEvent@6f1fba17</td></tr>
+<tr>
+<td title='FOWAPP.OriginalEvent.OriginalEvent2021()'><b>OriginalEvent2021</b><br>Test class: FOWAPP.OriginalEvent</td>
+<td></td>
+<td>0</td>
+<td>FOWAPP.OriginalEvent@6f1fba17</td></tr>
+<tr>
+<td title='YBAPP.MainPage.OverviewSectionTestcase()'><b>OverviewSectionTestcase</b><br>Test class: YBAPP.MainPage<br>Parameters: Editoruser, pwd1</td>
+<td></td>
+<td>0</td>
+<td>YBAPP.MainPage@6c3708b3</td></tr>
+<tr>
+<td title='YBAPP.MainPage.OverviewSectionTestcase()'><b>OverviewSectionTestcase</b><br>Test class: YBAPP.MainPage<br>Parameters: GlobalUser, 12344</td>
+<td></td>
+<td>0</td>
+<td>YBAPP.MainPage@6c3708b3</td></tr>
+<tr>
+<td title='YBAPP.MainPage.OverviewSectionTestcase()'><b>OverviewSectionTestcase</b><br>Test class: YBAPP.MainPage<br>Parameters: TerritoryUser, 32322</td>
+<td></td>
+<td>0</td>
+<td>YBAPP.MainPage@6c3708b3</td></tr>
+<tr>
+<td title='YBAPP.MainPage.OverviewSectionTestcase()'><b>OverviewSectionTestcase</b><br>Test class: YBAPP.MainPage<br>Parameters: StudentUser, 23232</td>
+<td></td>
+<td>0</td>
+<td>YBAPP.MainPage@6c3708b3</td></tr>
+<tr>
+<td title='FOWAPP.RetakeEvent.RetakeEvent1920()'><b>RetakeEvent1920</b><br>Test class: FOWAPP.RetakeEvent</td>
+<td></td>
+<td>0</td>
+<td>FOWAPP.RetakeEvent@67784306</td></tr>
+<tr>
+<td title='FOWAPP.RetakeEvent.RetakeEvent2021()'><b>RetakeEvent2021</b><br>Test class: FOWAPP.RetakeEvent</td>
+<td></td>
+<td>0</td>
+<td>FOWAPP.RetakeEvent@67784306</td></tr>
+<tr>
+<td title='YBAPP.testngxmlcutout.Size8()'><b>Size8</b><br>Test class: YBAPP.testngxmlcutout</td>
+<td></td>
+<td>0</td>
+<td>YBAPP.testngxmlcutout@3e9b1010</td></tr>
+<tr>
+<td title='FOWAPP.SupplementEvents.SupplementEvents1920()'><b>SupplementEvents1920</b><br>Test class: FOWAPP.SupplementEvents</td>
+<td></td>
+<td>0</td>
+<td>FOWAPP.SupplementEvents@335eadca</td></tr>
+<tr>
+<td title='FOWAPP.SupplementEvents.SupplementEvents2021()'><b>SupplementEvents2021</b><br>Test class: FOWAPP.SupplementEvents</td>
+<td></td>
+<td>0</td>
+<td>FOWAPP.SupplementEvents@335eadca</td></tr>
+<tr>
+<td title='YBAPP.testngxmlcanvaseImage.canvas1()'><b>canvas1</b><br>Test class: YBAPP.testngxmlcanvaseImage</td>
+<td></td>
+<td>0</td>
+<td>YBAPP.testngxmlcanvaseImage@185d8b6</td></tr>
+<tr>
+<td title='YBAPP.testngxmlcanvaseImage.canvas2()'><b>canvas2</b><br>Test class: YBAPP.testngxmlcanvaseImage</td>
+<td></td>
+<td>0</td>
+<td>YBAPP.testngxmlcanvaseImage@185d8b6</td></tr>
+<tr>
+<td title='YBAPP.testngxmlcutout.cutout1()'><b>cutout1</b><br>Test class: YBAPP.testngxmlcutout</td>
+<td></td>
+<td>0</td>
+<td>YBAPP.testngxmlcutout@3e9b1010</td></tr>
+<tr>
+<td title='YBAPP.testngxmlcutout.cutout2()'><b>cutout2</b><br>Test class: YBAPP.testngxmlcutout</td>
+<td></td>
+<td>0</td>
+<td>YBAPP.testngxmlcutout@3e9b1010</td></tr>
+<tr>
+<td title='YBAPP.MainPage.dashBoardTestcase()'><b>dashBoardTestcase</b><br>Test class: YBAPP.MainPage<br>Parameters: Editoruser, pwd1</td>
+<td></td>
+<td>0</td>
+<td>YBAPP.MainPage@6c3708b3</td></tr>
+<tr>
+<td title='YBAPP.MainPage.dashBoardTestcase()'><b>dashBoardTestcase</b><br>Test class: YBAPP.MainPage<br>Parameters: GlobalUser, 12344</td>
+<td></td>
+<td>0</td>
+<td>YBAPP.MainPage@6c3708b3</td></tr>
+<tr>
+<td title='YBAPP.MainPage.dashBoardTestcase()'><b>dashBoardTestcase</b><br>Test class: YBAPP.MainPage<br>Parameters: TerritoryUser, 32322</td>
+<td></td>
+<td>0</td>
+<td>YBAPP.MainPage@6c3708b3</td></tr>
+<tr>
+<td title='YBAPP.MainPage.dashBoardTestcase()'><b>dashBoardTestcase</b><br>Test class: YBAPP.MainPage<br>Parameters: StudentUser, 23232</td>
+<td></td>
+<td>0</td>
+<td>YBAPP.MainPage@6c3708b3</td></tr>
+<tr>
+<td title='YBAPP.testngxmlcutout.size7()'><b>size7</b><br>Test class: YBAPP.testngxmlcutout</td>
+<td></td>
+<td>0</td>
+<td>YBAPP.testngxmlcutout@3e9b1010</td></tr>
+<tr>
+<td title='YBAPP.testngxmlTraditional.size7and8()'><b>size7and8</b><br>Test class: YBAPP.testngxmlTraditional</td>
+<td></td>
+<td>0</td>
+<td>YBAPP.testngxmlTraditional@6b09bb57</td></tr>
+<tr>
+<td title='YBAPP.testngxmlTraditional.size9()'><b>size9</b><br>Test class: YBAPP.testngxmlTraditional</td>
+<td></td>
+<td>0</td>
+<td>YBAPP.testngxmlTraditional@6b09bb57</td></tr>
+<tr>
+<td title='YBAPP.testng.step1()'><b>step1</b><br>Test class: YBAPP.testng</td>
+<td></td>
+<td>0</td>
+<td>YBAPP.testng@63753b6d</td></tr>
+<tr>
+<td title='YBAPP.testng.step4()'><b>step4</b><br>Test class: YBAPP.testng</td>
+<td></td>
+<td>0</td>
+<td>YBAPP.testng@63753b6d</td></tr>
+<tr>
+<td title='YBAPP.MultiThreadingex.test1()'><b>test1</b><br>Test class: YBAPP.MultiThreadingex</td>
+<td></td>
+<td>0</td>
+<td>YBAPP.MultiThreadingex@6536e911</td></tr>
+<tr>
+<td title='YBAPP.MultiThreadingex.test1()'><b>test1</b><br>Test class: YBAPP.MultiThreadingex</td>
+<td></td>
+<td>0</td>
+<td>YBAPP.MultiThreadingex@6536e911</td></tr>
+<tr>
+<td title='YBAPP.parellelTesting.test1()'><b>test1</b><br>Test class: YBAPP.parellelTesting</td>
+<td></td>
+<td>0</td>
+<td>YBAPP.parellelTesting@18eed359</td></tr>
+<tr>
+<td title='YBAPP.MultiThreadingex.test2()'><b>test2</b><br>Test class: YBAPP.MultiThreadingex</td>
+<td></td>
+<td>0</td>
+<td>YBAPP.MultiThreadingex@6536e911</td></tr>
+<tr>
+<td title='YBAPP.MultiThreadingex.test2()'><b>test2</b><br>Test class: YBAPP.MultiThreadingex</td>
+<td></td>
+<td>0</td>
+<td>YBAPP.MultiThreadingex@6536e911</td></tr>
+<tr>
+<td title='YBAPP.parellelTesting.test2()'><b>test2</b><br>Test class: YBAPP.parellelTesting</td>
+<td></td>
+<td>0</td>
+<td>YBAPP.parellelTesting@18eed359</td></tr>
+<tr>
+<td title='YBAPP.MultiThreadingex.test3()'><b>test3</b><br>Test class: YBAPP.MultiThreadingex</td>
+<td></td>
+<td>0</td>
+<td>YBAPP.MultiThreadingex@6536e911</td></tr>
+<tr>
+<td title='YBAPP.parellelTesting.test3()'><b>test3</b><br>Test class: YBAPP.parellelTesting</td>
+<td></td>
+<td>0</td>
+<td>YBAPP.parellelTesting@18eed359</td></tr>
+<tr>
+<td title='YBAPP.useListnerinClass.testcase1()'><b>testcase1</b><br>Test class: YBAPP.useListnerinClass</td>
+<td></td>
+<td>0</td>
+<td>YBAPP.useListnerinClass@520a3426</td></tr>
+<tr>
+<td title='YBAPP.testngxmlTraditional.traditional2()'><b>traditional2</b><br>Test class: YBAPP.testngxmlTraditional</td>
+<td></td>
+<td>0</td>
+<td>YBAPP.testngxmlTraditional@6b09bb57</td></tr>
+</table><p>
+</body>
+</html>

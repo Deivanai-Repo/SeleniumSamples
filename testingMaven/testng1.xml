@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="YBAPP.testng"/>
+      <class name="YBAPP.testngxmlTraditional"/>
+      <class name="YBAPP.MultiThreadingex"/>
+      <class name="YBAPP.useListnerinClass"/>
+      <class name="YBAPP.parellelTesting"/>
+      <class name="YBAPP.testngxmlcutout"/>
+      <class name="YBAPP.MainPage"/>
+      <class name="FOWAPP.OriginalEvent"/>
+      <class name="YBAPP.testngxmlcanvaseImage"/>
+      <class name="FOWAPP.RetakeEvent"/>
+      <class name="FOWAPP.SupplementEvents"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

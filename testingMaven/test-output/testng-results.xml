@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="36" passed="36">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="339" started-at="2020-04-14T20:46:52 CDT" finished-at="2020-04-14T20:46:52 CDT">
+    <groups>
+      <group name="Regression">
+        <method signature="OriginalEvent.OriginalEvent1920()[pri:0, instance:FOWAPP.OriginalEvent@6f1fba17]" name="OriginalEvent1920" class="FOWAPP.OriginalEvent"/>
+        <method signature="OriginalEvent.OriginalEvent2021()[pri:0, instance:FOWAPP.OriginalEvent@6f1fba17]" name="OriginalEvent2021" class="FOWAPP.OriginalEvent"/>
+        <method signature="RetakeEvent.RetakeEvent1920()[pri:0, instance:FOWAPP.RetakeEvent@67784306]" name="RetakeEvent1920" class="FOWAPP.RetakeEvent"/>
+        <method signature="RetakeEvent.RetakeEvent2021()[pri:0, instance:FOWAPP.RetakeEvent@67784306]" name="RetakeEvent2021" class="FOWAPP.RetakeEvent"/>
+        <method signature="SupplementEvents.SupplementEvents1920()[pri:0, instance:FOWAPP.SupplementEvents@335eadca]" name="SupplementEvents1920" class="FOWAPP.SupplementEvents"/>
+        <method signature="SupplementEvents.SupplementEvents2021()[pri:0, instance:FOWAPP.SupplementEvents@335eadca]" name="SupplementEvents2021" class="FOWAPP.SupplementEvents"/>
+        <method signature="testngxmlTraditional.size7and8()[pri:0, instance:YBAPP.testngxmlTraditional@6b09bb57]" name="size7and8" class="YBAPP.testngxmlTraditional"/>
+        <method signature="testngxmlTraditional.traditional2()[pri:0, instance:YBAPP.testngxmlTraditional@6b09bb57]" name="traditional2" class="YBAPP.testngxmlTraditional"/>
+        <method signature="testngxmlcanvaseImage.Image1()[pri:0, instance:YBAPP.testngxmlcanvaseImage@185d8b6]" name="Image1" class="YBAPP.testngxmlcanvaseImage"/>
+        <method signature="testngxmlcutout.cutout1()[pri:0, instance:YBAPP.testngxmlcutout@3e9b1010]" name="cutout1" class="YBAPP.testngxmlcutout"/>
+        <method signature="testngxmlcutout.size7()[pri:0, instance:YBAPP.testngxmlcutout@3e9b1010]" name="size7" class="YBAPP.testngxmlcutout"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test name="Test" duration-ms="339" started-at="2020-04-14T20:46:52 CDT" finished-at="2020-04-14T20:46:52 CDT">
+      <class name="YBAPP.MainPage">
+        <test-method status="PASS" signature="OverviewSectionTestcase(java.lang.String, java.lang.String)[pri:0, instance:YBAPP.MainPage@6c3708b3]" name="OverviewSectionTestcase" duration-ms="1" started-at="2020-04-14T20:46:52 CDT" data-provider="userType" finished-at="2020-04-14T20:46:52 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Editoruser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OverviewSectionTestcase -->
+        <test-method status="PASS" signature="OverviewSectionTestcase(java.lang.String, java.lang.String)[pri:0, instance:YBAPP.MainPage@6c3708b3]" name="OverviewSectionTestcase" duration-ms="2" started-at="2020-04-14T20:46:52 CDT" data-provider="userType" finished-at="2020-04-14T20:46:52 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GlobalUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12344]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OverviewSectionTestcase -->
+        <test-method status="PASS" signature="OverviewSectionTestcase(java.lang.String, java.lang.String)[pri:0, instance:YBAPP.MainPage@6c3708b3]" name="OverviewSectionTestcase" duration-ms="8" started-at="2020-04-14T20:46:52 CDT" data-provider="userType" finished-at="2020-04-14T20:46:52 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TerritoryUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[32322]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OverviewSectionTestcase -->
+        <test-method status="PASS" signature="OverviewSectionTestcase(java.lang.String, java.lang.String)[pri:0, instance:YBAPP.MainPage@6c3708b3]" name="OverviewSectionTestcase" duration-ms="4" started-at="2020-04-14T20:46:52 CDT" data-provider="userType" finished-at="2020-04-14T20:46:52 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[StudentUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[23232]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OverviewSectionTestcase -->
+        <test-method status="PASS" signature="dashBoardTestcase(java.lang.String, java.lang.String)[pri:0, instance:YBAPP.MainPage@6c3708b3]" name="dashBoardTestcase" duration-ms="2" started-at="2020-04-14T20:46:52 CDT" data-provider="userType" finished-at="2020-04-14T20:46:52 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Editoruser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashBoardTestcase -->
+        <test-method status="PASS" signature="dashBoardTestcase(java.lang.String, java.lang.String)[pri:0, instance:YBAPP.MainPage@6c3708b3]" name="dashBoardTestcase" duration-ms="1" started-at="2020-04-14T20:46:52 CDT" data-provider="userType" finished-at="2020-04-14T20:46:52 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GlobalUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12344]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashBoardTestcase -->
+        <test-method status="PASS" signature="dashBoardTestcase(java.lang.String, java.lang.String)[pri:0, instance:YBAPP.MainPage@6c3708b3]" name="dashBoardTestcase" duration-ms="2" started-at="2020-04-14T20:46:52 CDT" data-provider="userType" finished-at="2020-04-14T20:46:52 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TerritoryUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[32322]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashBoardTestcase -->
+        <test-method status="PASS" signature="dashBoardTestcase(java.lang.String, java.lang.String)[pri:0, instance:YBAPP.MainPage@6c3708b3]" name="dashBoardTestcase" duration-ms="1" started-at="2020-04-14T20:46:52 CDT" data-provider="userType" finished-at="2020-04-14T20:46:52 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[StudentUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[23232]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashBoardTestcase -->
+      </class> <!-- YBAPP.MainPage -->
+      <class name="YBAPP.testngxmlcutout">
+        <test-method status="PASS" signature="Size8()[pri:0, instance:YBAPP.testngxmlcutout@3e9b1010]" name="Size8" duration-ms="13" started-at="2020-04-14T20:46:52 CDT" finished-at="2020-04-14T20:46:52 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Size8 -->
+        <test-method status="PASS" signature="cutout1()[pri:0, instance:YBAPP.testngxmlcutout@3e9b1010]" name="cutout1" duration-ms="6" started-at="2020-04-14T20:46:52 CDT" finished-at="2020-04-14T20:46:52 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cutout1 -->
+        <test-method status="PASS" signature="cutout2()[pri:0, instance:YBAPP.testngxmlcutout@3e9b1010]" name="cutout2" duration-ms="2" started-at="2020-04-14T20:46:52 CDT" finished-at="2020-04-14T20:46:52 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cutout2 -->
+        <test-method status="PASS" signature="size7()[pri:0, instance:YBAPP.testngxmlcutout@3e9b1010]" name="size7" duration-ms="2" started-at="2020-04-14T20:46:52 CDT" finished-at="2020-04-14T20:46:52 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- size7 -->
+      </class> <!-- YBAPP.testngxmlcutout -->
+      <class name="FOWAPP.OriginalEvent">
+        <test-method status="PASS" signature="OriginalEvent1920()[pri:0, instance:FOWAPP.OriginalEvent@6f1fba17]" name="OriginalEvent1920" duration-ms="1" started-at="2020-04-14T20:46:52 CDT" finished-at="2020-04-14T20:46:52 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OriginalEvent1920 -->
+        <test-method status="PASS" signature="OriginalEvent2021()[pri:0, instance:FOWAPP.OriginalEvent@6f1fba17]" name="OriginalEvent2021" duration-ms="2" started-at="2020-04-14T20:46:52 CDT" finished-at="2020-04-14T20:46:52 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OriginalEvent2021 -->
+      </class> <!-- FOWAPP.OriginalEvent -->
+      <class name="YBAPP.testngxmlTraditional">
+        <test-method status="PASS" signature="size7and8()[pri:0, instance:YBAPP.testngxmlTraditional@6b09bb57]" name="size7and8" duration-ms="3" started-at="2020-04-14T20:46:52 CDT" finished-at="2020-04-14T20:46:52 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- size7and8 -->
+        <test-method status="PASS" signature="size9()[pri:0, instance:YBAPP.testngxmlTraditional@6b09bb57]" name="size9" duration-ms="2" started-at="2020-04-14T20:46:52 CDT" finished-at="2020-04-14T20:46:52 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- size9 -->
+        <test-method status="PASS" signature="traditional2()[pri:0, instance:YBAPP.testngxmlTraditional@6b09bb57]" name="traditional2" duration-ms="2" started-at="2020-04-14T20:46:52 CDT" finished-at="2020-04-14T20:46:52 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- traditional2 -->
+      </class> <!-- YBAPP.testngxmlTraditional -->
+      <class name="YBAPP.testng">
+        <test-method status="PASS" signature="step2()[pri:0, instance:YBAPP.testng@63753b6d]" name="step2" is-config="true" duration-ms="14" started-at="2020-04-14T20:46:52 CDT" finished-at="2020-04-14T20:46:52 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step2 -->
+        <test-method status="PASS" signature="stepBefore()[pri:0, instance:YBAPP.testng@63753b6d]" name="stepBefore" is-config="true" duration-ms="0" started-at="2020-04-14T20:46:52 CDT" finished-at="2020-04-14T20:46:52 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stepBefore -->
+        <test-method status="PASS" signature="step1()[pri:2, instance:YBAPP.testng@63753b6d]" name="step1" duration-ms="10" started-at="2020-04-14T20:46:52 CDT" finished-at="2020-04-14T20:46:52 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step1 -->
+        <test-method status="PASS" signature="stepAfter()[pri:0, instance:YBAPP.testng@63753b6d]" name="stepAfter" is-config="true" duration-ms="1" started-at="2020-04-14T20:46:52 CDT" finished-at="2020-04-14T20:46:52 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stepAfter -->
+        <test-method status="PASS" signature="stepBefore()[pri:0, instance:YBAPP.testng@63753b6d]" name="stepBefore" is-config="true" duration-ms="0" started-at="2020-04-14T20:46:52 CDT" finished-at="2020-04-14T20:46:52 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stepBefore -->
+        <test-method status="PASS" signature="step4()[pri:0, instance:YBAPP.testng@63753b6d]" name="step4" duration-ms="1" started-at="2020-04-14T20:46:52 CDT" depends-on-methods="YBAPP.testng.step1" finished-at="2020-04-14T20:46:52 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step4 -->
+        <test-method status="PASS" signature="stepAfter()[pri:0, instance:YBAPP.testng@63753b6d]" name="stepAfter" is-config="true" duration-ms="1" started-at="2020-04-14T20:46:52 CDT" finished-at="2020-04-14T20:46:52 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stepAfter -->
+        <test-method status="PASS" signature="step3()[pri:0, instance:YBAPP.testng@63753b6d]" name="step3" is-config="true" duration-ms="1" started-at="2020-04-14T20:46:52 CDT" finished-at="2020-04-14T20:46:52 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step3 -->
+      </class> <!-- YBAPP.testng -->
+      <class name="YBAPP.parellelTesting">
+        <test-method status="PASS" signature="test1()[pri:0, instance:YBAPP.parellelTesting@18eed359]" name="test1" duration-ms="1" started-at="2020-04-14T20:46:52 CDT" finished-at="2020-04-14T20:46:52 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:YBAPP.parellelTesting@18eed359]" name="test2" duration-ms="2" started-at="2020-04-14T20:46:52 CDT" finished-at="2020-04-14T20:46:52 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:YBAPP.parellelTesting@18eed359]" name="test3" duration-ms="1" started-at="2020-04-14T20:46:52 CDT" finished-at="2020-04-14T20:46:52 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- YBAPP.parellelTesting -->
+      <class name="YBAPP.useListnerinClass">
+        <test-method status="PASS" signature="testcase1()[pri:0, instance:YBAPP.useListnerinClass@520a3426]" name="testcase1" duration-ms="4" started-at="2020-04-14T20:46:52 CDT" finished-at="2020-04-14T20:46:52 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+      </class> <!-- YBAPP.useListnerinClass -->
+      <class name="YBAPP.testngxmlcanvaseImage">
+        <test-method status="PASS" signature="Image1()[pri:0, instance:YBAPP.testngxmlcanvaseImage@185d8b6]" name="Image1" duration-ms="1" started-at="2020-04-14T20:46:52 CDT" finished-at="2020-04-14T20:46:52 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Image1 -->
+        <test-method status="PASS" signature="Image2()[pri:0, instance:YBAPP.testngxmlcanvaseImage@185d8b6]" name="Image2" duration-ms="2" started-at="2020-04-14T20:46:52 CDT" finished-at="2020-04-14T20:46:52 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Image2 -->
+        <test-method status="PASS" signature="canvas1()[pri:0, instance:YBAPP.testngxmlcanvaseImage@185d8b6]" name="canvas1" duration-ms="3" started-at="2020-04-14T20:46:52 CDT" finished-at="2020-04-14T20:46:52 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canvas1 -->
+        <test-method status="PASS" signature="canvas2()[pri:0, instance:YBAPP.testngxmlcanvaseImage@185d8b6]" name="canvas2" duration-ms="5" started-at="2020-04-14T20:46:52 CDT" finished-at="2020-04-14T20:46:52 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canvas2 -->
+      </class> <!-- YBAPP.testngxmlcanvaseImage -->
+      <class name="YBAPP.MultiThreadingex">
+        <test-method status="PASS" signature="test1()[pri:0, instance:YBAPP.MultiThreadingex@6536e911]" name="test1" duration-ms="13" started-at="2020-04-14T20:46:52 CDT" finished-at="2020-04-14T20:46:52 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:YBAPP.MultiThreadingex@6536e911]" name="test1" duration-ms="14" started-at="2020-04-14T20:46:52 CDT" finished-at="2020-04-14T20:46:52 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:YBAPP.MultiThreadingex@6536e911]" name="test2" duration-ms="3" started-at="2020-04-14T20:46:52 CDT" finished-at="2020-04-14T20:46:52 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:YBAPP.MultiThreadingex@6536e911]" name="test2" duration-ms="2" started-at="2020-04-14T20:46:52 CDT" finished-at="2020-04-14T20:46:52 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:YBAPP.MultiThreadingex@6536e911]" name="test3" duration-ms="3" started-at="2020-04-14T20:46:52 CDT" finished-at="2020-04-14T20:46:52 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- YBAPP.MultiThreadingex -->
+      <class name="FOWAPP.RetakeEvent">
+        <test-method status="PASS" signature="RetakeEvent1920()[pri:0, instance:FOWAPP.RetakeEvent@67784306]" name="RetakeEvent1920" duration-ms="1" started-at="2020-04-14T20:46:52 CDT" finished-at="2020-04-14T20:46:52 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RetakeEvent1920 -->
+        <test-method status="PASS" signature="RetakeEvent2021()[pri:0, instance:FOWAPP.RetakeEvent@67784306]" name="RetakeEvent2021" duration-ms="2" started-at="2020-04-14T20:46:52 CDT" finished-at="2020-04-14T20:46:52 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RetakeEvent2021 -->
+      </class> <!-- FOWAPP.RetakeEvent -->
+      <class name="FOWAPP.SupplementEvents">
+        <test-method status="PASS" signature="SupplementEvents1920()[pri:0, instance:FOWAPP.SupplementEvents@335eadca]" name="SupplementEvents1920" duration-ms="8" started-at="2020-04-14T20:46:52 CDT" finished-at="2020-04-14T20:46:52 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SupplementEvents1920 -->
+        <test-method status="PASS" signature="SupplementEvents2021()[pri:0, instance:FOWAPP.SupplementEvents@335eadca]" name="SupplementEvents2021" duration-ms="1" started-at="2020-04-14T20:46:52 CDT" finished-at="2020-04-14T20:46:52 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SupplementEvents2021 -->
+      </class> <!-- FOWAPP.SupplementEvents -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
